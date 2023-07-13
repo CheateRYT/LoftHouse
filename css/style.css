@@ -157,7 +157,6 @@ a:hover {
 }
 
 .header__nav-item {
-  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -192,11 +191,6 @@ a:hover {
   font-weight: 700;
   line-height: normal;
   margin-bottom: 80px;
-}
-
-.header__title-button:hover {
-  fill: #fff;
-  color: #fff;
 }
 
 .header__footer {
@@ -235,7 +229,6 @@ a:hover {
 }
 
 .header__footer-text {
-  color: #fff;
   text-align: center;
   font-size: 18px;
   font-style: normal;
