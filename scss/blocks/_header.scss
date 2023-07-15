@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   min-height: 840px;
+  margin-bottom: 194px;
   background: linear-gradient(
       180deg,
       #242b33 11.98%,
@@ -13,7 +13,7 @@
     url("./../img/header/header-bg.jpg"), lightgray 50% / cover no-repeat;
 }
 
-//Header Top
+//Header Top  
 
 .header__top-row {
   display: flex;
@@ -32,6 +32,12 @@
   align-items: center;
 }
 .header__nav-item {
+  @media only screen and (max-width: 520px) {
+    font-size: 10px;
+  }
+  @media only screen and (max-width: 420px) {
+    font-size: 8px;
+  }
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

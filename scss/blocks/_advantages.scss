@@ -1,0 +1,29 @@
+.advantages__row {
+  @media only screen and (max-width: 640px) {
+      flex-wrap: wrap;
+  }
+  display: flex;
+  max-width: 716px;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.advantage {
+  @media only screen and (max-width: 640px) {
+      width: 100%;
+  }
+  display: flex;
+  flex-direction: column;
+  row-gap: 53px;
+  align-items: center;
+  text-align: center;
+}
+.advantage__text {
+  text-align: center;
+  font-family: $font-secondary;
+  font-size: 20px;
+  font-style: normal;
+  max-width: 193px;
+  font-weight: 300;
+  line-height: 27px; /* 135% */
+}
